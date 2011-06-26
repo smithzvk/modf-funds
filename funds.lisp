@@ -16,7 +16,7 @@
 ;; modf function for <<funds:tree-find>>.  This should be used with caution.
 ;; <<Tree-find>> only returns the first match it finds.  This means that if you
 ;; have a tree with multiple elements with the same key, it may be unpredictable
-;; with key is replaced.
+;; which key is replaced.
 
 (modf:define-modf-function funds:tree-find 1
     (new-val tree key &key (order nil order?) (test nil test?))
